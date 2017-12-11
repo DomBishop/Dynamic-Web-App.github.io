@@ -1,0 +1,110 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background: #3B5998;
+}
+
+/* hide the results and details by default */
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #D4D4D4;
+}
+
+
+#results ol {
+    list-style: none;
+}
+
+#results li {
+    overflow: hidden;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+#results li:hover {
+    background: #ccc;
+}
+
+#results img {
+    max-width: 8rem;
+}
+
+#results h2 {
+    line-height: 0.5;
+    font-size: 2rem;
+    padding-bottom: calc(8rem - 1.5rem - 10px);
+}
+
+#results, #details {
+display: none;
+}
+
+#logo {
+  max-width: 10rem;
+}
+
+
+#lineThrough {
+  text-decoration: line-through;
+  word-spacing: -6px;
+}
+
+h1 {
+    color: #3B5998;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+h3 {
+  font-style: italic;
+  padding: 30px
+}
+
+section {
+    background: #FFF;
+    width: 40vw;
+    padding: 50px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+
+select, button, a {
+    color: #404040;
+    font-size: 175%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+select {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 16px;
+  height: 34px;
+  width: 268px;
+
+
+}
+
+button {
+    border: none;
+    width: 5vw;
+    height: 50px;
+    background: #E5E5E5;
+}
+
+a {
+  {
+  font-style: italic;
+  font-size: 1.5rem;
+
+}
